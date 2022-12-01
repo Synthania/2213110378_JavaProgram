@@ -1,4 +1,4 @@
 Student ID : 2213110378
 Fullname (in English) : Achiraya Phuangsombut
 AKA : Synthania
-ClassDetail : Control Statement & Confirm Dialog
+ClassDetail : String Methods and Defined Method
