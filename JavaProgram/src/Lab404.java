@@ -5,7 +5,7 @@ public class Lab404 {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Text: ");
 		String text = scan.nextLine();
-		int words = text.length(); /*n = text /2 - 1;*/
+		int words = text.length(); 
 		int n = words/2-1;
 		boolean isPalindrome = true;
 		for (int i =0;i<n;i++) {
