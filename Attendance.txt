@@ -1,4 +1,5 @@
+Date : 15-12-2020
 Student ID : 2213110378
 Fullname (in English) : Achiraya Phuangsombut
 AKA : Synthania
-ClassDetail : Repeat Lab Sheet 1-4
+ClassDetail : Array in Java
