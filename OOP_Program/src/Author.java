@@ -29,7 +29,7 @@ public class Author {
 	public String getEmail() {
 		return email;
 	}
-
+ 
 	public String getGenderName() {
 		return (gender + "").equalsIgnoreCase("M") ? "Male" : (gender + "").equalsIgnoreCase("F") ? "Female" : "";
 	}

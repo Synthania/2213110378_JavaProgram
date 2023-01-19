@@ -6,7 +6,7 @@ public class Book {
 	private int publishyear;
 
 	public void setTitle(String title) {
-		this.title = title;
+		this.title = title; 
 	}
 
 	public String getTitle() {

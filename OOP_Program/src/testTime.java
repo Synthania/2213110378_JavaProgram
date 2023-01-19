@@ -5,7 +5,7 @@ public class testTime {
 		Time t1 = new Time(1, 2, 3);
 		System.out.println(t1); // call toString() Method
 		Time t2 = new Time();
-		System.out.println(t2);// call toString() Method
+		System.out.println(t2);// call toString() Method 
 
 		// Test Setter and Getter
 		t1.setHour(4);

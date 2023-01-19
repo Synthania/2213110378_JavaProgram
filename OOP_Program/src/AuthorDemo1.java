@@ -12,7 +12,7 @@ public class AuthorDemo1 {
 		String mail = scan.nextLine();
 		System.out.print("Input author gender : ");
 		char gender = scan.next().charAt(0);
-		Author at = new Author(name,mail,gender);
+		Author at = new Author(name, mail, gender);
 		System.out.println("\n" + at);
 	}
 

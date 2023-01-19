@@ -7,7 +7,7 @@ public class AuthorDemo2 {
 
 	public static void main(String[] args) {
 		for (int i = 0; i < at.length; i++) {
-			System.out.println("Information Author " +( i + 1));
+			System.out.println("Information Author " + (i + 1));
 			line();
 			System.out.print("\nInput author name   : ");
 			String name = scan.nextLine();

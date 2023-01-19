@@ -11,7 +11,7 @@ public class WeeklyWeatherData {
 		avgPressure = pressure;
 	}
 
-	public void calcutesStats() {
+	public void calcutesStats() { 
 		maxRain = 0.0;
 		double rainSum = 0.0;
 		for (int i = 0; i < rainFall.length; i++) {

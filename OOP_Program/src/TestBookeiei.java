@@ -8,7 +8,7 @@ public class TestBookeiei {
 		System.out.print("Input book title   : ");
 		book.setTitle(scan.nextLine());
 		System.out.print("Input book price   : ");
-		book.setPrice(scan.nextFloat());
+		book.setPrice(scan.nextFloat()); 
 		System.out.print("Input publish year : ");
 		book.setPublishyear(scan.nextInt());
 		// System.out.println();
