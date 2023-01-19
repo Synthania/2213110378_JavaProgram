@@ -6,18 +6,22 @@ public class AuthorDemo2 {
 	static Author at[] = new Author[4];
 
 	public static void main(String[] args) {
-		for(int i = 0; i<at.length;i++) {
-			System.out.println("Information Author "+i+1);
+		for (int i = 0; i < at.length; i++) {
+			System.out.println("Information Author " +( i + 1));
 			line();
 			System.out.print("\nInput author name   : ");
 			String name = scan.nextLine();
 			System.out.print("Input author e-mail : ");
 			String mail = scan.nextLine();
-			at[i] = new Author(name,mail);
+			at[i] = new Author(name, mail);
 			line();
-			System.out.print("\nInput author gender : ");
-			char gender = scan.next().charAt(0);
-			System.out.println("\n" + at);
+		}
+
+		System.out.println();
+		int i = 1;
+		for (Author _at : at) {
+			System.out.println(i + "." + _at.getName() + " (" + _at.getEmail() + ")");
+			i++;
 		}
 	}
 
@@ -25,5 +29,6 @@ public class AuthorDemo2 {
 		for (int i = 0; i <= 40; i++) {
 			System.out.print("-");
 		}
+		System.out.println();
 	}
 }
