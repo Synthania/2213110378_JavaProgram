@@ -11,7 +11,7 @@ public class BookDemo2 {
 
 		Book1 book = new Book1(iptitle, new Author1(ipname, ipmail), page);
 		if (result == 1 ) {
-			JOptionPane.showInputDialog("Input book page, again:");
+			page = Integer.parseInt(JOptionPane.showInputDialog("Input book page, again:"));
 			book.setPage(page);
 		} 
 		JOptionPane.showMessageDialog(null,
