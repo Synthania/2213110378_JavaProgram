@@ -1,5 +1,5 @@
-Date : 26-Jan-2023
+Date : 02-Feb-2023
 Student ID : 2213110378
 Fullname (in English) : Achiraya Phuangsombut
 AKA : Synthania
-ClassDetail : Composition and Inheritance
+ClassDetail : Composition , Inheritance and Ploymorphism
