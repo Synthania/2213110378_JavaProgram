@@ -18,6 +18,8 @@ public class FictionDemo1 {
 		String wm = s.nextLine();
 
 		FictionBook writer = new FictionBook(wm, py);
+		
+		
 
 	}
 
